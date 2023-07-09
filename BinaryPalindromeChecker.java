@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class BinaryPalindromeChecker {
+public class binary_palindrome_checker {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number to be checked: ");
@@ -16,7 +16,7 @@ public class BinaryPalindromeChecker {
         }
     }
     
-    public static String decimalToBinary(int decimal) {
+    public static String decimal__to__Binary(int decimal) {
         StringBuilder binary = new StringBuilder();
         
         while (decimal > 0) {
@@ -28,7 +28,7 @@ public class BinaryPalindromeChecker {
         return binary.toString();
     }
     
-    public static boolean isPalindrome(String str) {
+    public static boolean is__Palindrome(String str) {
         int left = 0;
         int right = str.length() - 1;
         
